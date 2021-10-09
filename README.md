@@ -36,3 +36,12 @@ python reverser.py '<string>'
 ```
 python reverser.py '<string>' --all
 ```
+### How to use cryptographer:
+1. To get encoded message -> Run the command:
+```
+python cryptographer.py "<string>" encode 
+```
+2. To get decoded message -> Run the command:
+```
+python cryptographer.py "<encoded_string>" or '<encoded_string>'(case when $ in encoded string) decode 
+```
