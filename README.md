@@ -43,5 +43,5 @@ python cryptographer.py "<string>" encode
 ```
 2. To get decoded message -> Run the command:
 ```
-python cryptographer.py "<encoded_string>" or '<encoded_string>'(case when $ in encoded string) decode 
+python cryptographer.py "<encoded_string>" decode #or '<encoded_string>' (case when $ in encoded string)
 ```
