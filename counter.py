@@ -1,6 +1,6 @@
 import sys
 import argparse
-from constats.constants_for_counter import MESSAGE, ARGUMENT_NAME
+from constants.constants_for_counter import MESSAGE, ARGUMENT_NAME
 
 
 def main():
