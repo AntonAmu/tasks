@@ -21,3 +21,9 @@ venv\Scripts\activate.bat
 pip install -r requirements.txt
 ```
 6. Create .env files out of .env.example files with .env.example file, for example like this:
+
+### How to use counter:
+1. Run the command:
+```
+python counter.py '<string>'
+```
