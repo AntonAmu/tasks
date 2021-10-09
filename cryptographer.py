@@ -23,7 +23,7 @@ class Cryptographer:
         text += self.__salt
         for char in text:
             num = ord(char) + int(self.__key)
-            encoded_char = chr(num if num < 1114111 else num - 1115111)
+            encoded_char = chr(num if num < 1114111 else num - 1114111)
             enc_msg += encoded_char
         return enc_msg
 
