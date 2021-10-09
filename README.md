@@ -27,3 +27,12 @@ pip install -r requirements.txt
 ```
 python counter.py '<string>'
 ```
+### How to use reverser:
+1. To get only letters from the string on reverse order, each letter on a new line -> Run the command:
+```
+python reverser.py '<string>' 
+```
+2. To all char from the string on reverse order, each char on a new line -> Run the command:
+```
+python reverser.py '<string>' --all
+```
